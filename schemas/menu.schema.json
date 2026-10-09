@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CafeMenuDataset",
+  "type": "object",
+  "required": ["version", "currency", "categories", "items"],
+  "properties": {
+    "version": { "type": "string" },
+    "currency": { "type": "string" },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "description"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "category_id", "name", "description", "price", "image_url", "tags", "dietary"],
+        "properties": {
+          "id": { "type": "string" },
+          "category_id": { "type": "string" },
+          "name": { "type": "string" },
+          "tagline": { "type": "string" },
+          "description": { "type": "string" },
+          "price": { "type": "integer" },
+          "image_url": { "type": "string", "format": "uri" },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "dietary": {
+            "type": "object",
+            "required": ["is_vegan", "is_gluten_free", "is_halal", "allergens"],
+            "properties": {
+              "is_vegan": { "type": "boolean" },
+              "is_gluten_free": { "type": "boolean" },
+              "is_halal": { "type": "boolean" },
+              "allergens": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "coffee_profile": {
+            "type": "object",
+            "properties": {
+              "beans_origin": { "type": "string" },
+              "altitude_masl": { "type": "integer" },
+              "process": { "type": "string" },
+              "roast_level": { "type": "string" },
+              "tasting_notes": { "type": "array", "items": { "type": "string" } },
+              "radar_metrics": {
+                "type": "object",
+                "properties": {
+                  "acidity": { "type": "number", "minimum": 1, "maximum": 5 },
+                  "sweetness": { "type": "number", "minimum": 1, "maximum": 5 },
+                  "body": { "type": "number", "minimum": 1, "maximum": 5 },
+                  "aroma": { "type": "number", "minimum": 1, "maximum": 5 }
+                }
+              }
+            }
+          },
+          "customizations": {
+            "type": "object",
+            "properties": {
+              "temperatures": { "type": "array", "items": { "type": "string" } },
+              "milk_options": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": { "type": "string" },
+                    "name": { "type": "string" },
+                    "extra_price": { "type": "integer" }
+                  }
+                }
+              },
+              "sweetness_levels": { "type": "array", "items": { "type": "string" } },
+              "extra_shots_allowed": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

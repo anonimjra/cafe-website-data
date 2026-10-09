@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CafeOutletDataset",
+  "type": "object",
+  "required": ["version", "outlets"],
+  "properties": {
+    "version": { "type": "string" },
+    "outlets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "city", "address", "coordinates", "google_maps_url", "operating_hours", "wfc_amenities", "contacts"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "tagline": { "type": "string" },
+          "city": { "type": "string" },
+          "address": { "type": "string" },
+          "postal_code": { "type": "string" },
+          "image_url": { "type": "string", "format": "uri" },
+          "coordinates": {
+            "type": "object",
+            "required": ["latitude", "longitude"],
+            "properties": {
+              "latitude": { "type": "number" },
+              "longitude": { "type": "number" }
+            }
+          },
+          "google_maps_url": { "type": "string", "format": "uri" },
+          "operating_hours": {
+            "type": "object",
+            "required": ["weekday", "weekend"],
+            "properties": {
+              "weekday": { "type": "string" },
+              "weekend": { "type": "string" },
+              "peak_hours": { "type": "string" }
+            }
+          },
+          "wfc_amenities": {
+            "type": "object",
+            "required": ["wifi_speed_mbps", "power_sockets_rating", "total_capacity", "prayer_room"],
+            "properties": {
+              "wifi_speed_mbps": { "type": "integer" },
+              "power_sockets_rating": { "type": "string" },
+              "total_capacity": { "type": "integer" },
+              "has_meeting_room": { "type": "boolean" },
+              "has_outdoor_smoking": { "type": "boolean" },
+              "has_indoor_smoking": { "type": "boolean" },
+              "prayer_room": {
+                "type": "object",
+                "properties": {
+                  "available": { "type": "boolean" },
+                  "details": { "type": "string" }
+                }
+              },
+              "parking": {
+                "type": "object",
+                "properties": {
+                  "car_spaces": { "type": "string" },
+                  "motorcycle_spaces": { "type": "string" },
+                  "valet_service": { "type": "boolean" }
+                }
+              }
+            }
+          },
+          "contacts": {
+            "type": "object",
+            "required": ["whatsapp_order_number"],
+            "properties": {
+              "whatsapp_order_number": { "type": "string" },
+              "instagram_handle": { "type": "string" },
+              "delivery_links": {
+                "type": "object",
+                "properties": {
+                  "gofood": { "type": "string" },
+                  "grabfood": { "type": "string" }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

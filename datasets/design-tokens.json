@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "themes": [
+    {
+      "id": "warm-artisan",
+      "name": "Artisan Warm Earth (Specialty / Cozy)",
+      "vibe": "Hangat, organic, premium specialty roastery dengan sentuhan kayu walnut dan linen krem.",
+      "colors": {
+        "primary": "#3E2723",
+        "secondary": "#8D6E63",
+        "background": "#FDFBF7",
+        "surface": "#F4EFEA",
+        "text": "#1F1614",
+        "muted": "#756A63",
+        "accent": "#C47C35"
+      }
+    },
+    {
+      "id": "nordic-minimalist",
+      "name": "Nordic Architectural (Clean / Urban)",
+      "vibe": "Minimalis Skandinavia dengan kontras tajam, beton ekspos, dan stainless steel.",
+      "colors": {
+        "primary": "#18181B",
+        "secondary": "#52525B",
+        "background": "#FFFFFF",
+        "surface": "#F4F4F5",
+        "text": "#09090B",
+        "muted": "#71717A",
+        "accent": "#2563EB"
+      }
+    },
+    {
+      "id": "zen-botanical",
+      "name": "Zen Botanical Garden (Nature / Calm)",
+      "vibe": "Menenangkan dengan palet hijau daun zaitun lembut, batu kali, dan bambu.",
+      "colors": {
+        "primary": "#2D372E",
+        "secondary": "#5B6B5D",
+        "background": "#F9FAF8",
+        "surface": "#EFF2EE",
+        "text": "#1A201B",
+        "muted": "#687669",
+        "accent": "#A3B18A"
+      }
+    }
+  ],
+  "typography_presets": [
+    {
+      "id": "editorial-classic",
+      "heading_font": "Playfair Display, serif",
+      "body_font": "Plus Jakarta Sans, sans-serif",
+      "style_description": "Kombinasi serif editorial mewah untuk judul menu dan sans-serif geometris untuk deskripsi dan harga.",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    },
+    {
+      "id": "modern-monotype",
+      "heading_font": "Space Grotesk, sans-serif",
+      "body_font": "Inter, sans-serif",
+      "style_description": "Vibe modern indie coffee lab dengan sentuhan industrial teknikal.",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
+    }
+  ]
+}

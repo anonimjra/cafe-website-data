@@ -1,0 +1,137 @@
+{
+  "version": "1.0.0",
+  "outlets": [
+    {
+      "id": "senopati-flagship",
+      "name": "Kroma Roastery & Coffee Bar - Senopati",
+      "tagline": "Flagship roastery dengan open-concept brew bar dan mezzanine gallery",
+      "city": "Jakarta Selatan",
+      "address": "Jl. Senopati No. 82, Kebayoran Baru, Jakarta Selatan",
+      "postal_code": "12190",
+      "image_url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
+      "coordinates": {
+        "latitude": -6.234125,
+        "longitude": 106.809452
+      },
+      "google_maps_url": "https://maps.google.com/?q=-6.234125,106.809452",
+      "operating_hours": {
+        "weekday": "07:00 - 22:00 WIB",
+        "weekend": "07:00 - 23:00 WIB",
+        "peak_hours": "14:00 - 18:00 WIB"
+      },
+      "wfc_amenities": {
+        "wifi_speed_mbps": 150,
+        "power_sockets_rating": "Tersedia di 85% meja (setiap meja kerja & sofa booth)",
+        "total_capacity": 110,
+        "has_meeting_room": true,
+        "has_outdoor_smoking": true,
+        "has_indoor_smoking": true,
+        "prayer_room": {
+          "available": true,
+          "details": "Musholla AC berkapasitas 8 orang, terpisah ikhwan/akhwat, sajadah & sarung bersih disediakan"
+        },
+        "parking": {
+          "car_spaces": "12 slot mobil",
+          "motorcycle_spaces": "30 slot motor",
+          "valet_service": true
+        }
+      },
+      "contacts": {
+        "whatsapp_order_number": "+6281234567890",
+        "instagram_handle": "@kromacoffee.senopati",
+        "delivery_links": {
+          "gofood": "https://gofood.link/u/kroma-senopati",
+          "grabfood": "https://r.grab.com/g/kroma-senopati"
+        }
+      }
+    },
+    {
+      "id": "bsd-the-breeze-garden",
+      "name": "Kroma Botanical Sanctuary - BSD City",
+      "tagline": "Konsep glasshouse sejuk ramah satwa peliharaan di tepi danau",
+      "city": "Tangerang Selatan",
+      "address": "The Breeze Lakefront Promenade Unit L-08, BSD Grand Boulevard, Tangerang Selatan",
+      "postal_code": "15345",
+      "image_url": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80",
+      "coordinates": {
+        "latitude": -6.301548,
+        "longitude": 106.653421
+      },
+      "google_maps_url": "https://maps.google.com/?q=-6.301548,106.653421",
+      "operating_hours": {
+        "weekday": "08:00 - 22:00 WIB",
+        "weekend": "06:30 - 22:30 WIB",
+        "peak_hours": "07:30 - 10:30 WIB (Cycling Club) & 16:00 - 20:00 WIB"
+      },
+      "wfc_amenities": {
+        "wifi_speed_mbps": 100,
+        "power_sockets_rating": "Tersedia di 70% meja indoor",
+        "total_capacity": 140,
+        "has_meeting_room": false,
+        "has_outdoor_smoking": true,
+        "has_indoor_smoking": false,
+        "prayer_room": {
+          "available": true,
+          "details": "Akses langsung musholla mall The Breeze (jarak 20 meter, bersih & luas)"
+        },
+        "parking": {
+          "car_spaces": "Parkir mall The Breeze (luas > 500 mobil)",
+          "motorcycle_spaces": "Parkir mall area timur",
+          "valet_service": false
+        }
+      },
+      "contacts": {
+        "whatsapp_order_number": "+6281234567891",
+        "instagram_handle": "@kromacoffee.bsd",
+        "delivery_links": {
+          "gofood": "https://gofood.link/u/kroma-bsd",
+          "grabfood": "https://r.grab.com/g/kroma-bsd"
+        }
+      }
+    },
+    {
+      "id": "canggu-artisan-lab",
+      "name": "Kroma Micro-Roasters - Canggu Bali",
+      "tagline": "Slow bar & cupping room dengan view persawahan tropis",
+      "city": "Badung, Bali",
+      "address": "Jl. Pantai Batu Bolong No. 45A, Canggu, Kuta Utara, Badung, Bali",
+      "postal_code": "80361",
+      "image_url": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1200&q=80",
+      "coordinates": {
+        "latitude": -8.653812,
+        "longitude": 115.130981
+      },
+      "google_maps_url": "https://maps.google.com/?q=-8.653812,115.130981",
+      "operating_hours": {
+        "weekday": "06:30 - 21:00 WITA",
+        "weekend": "06:30 - 22:00 WITA",
+        "peak_hours": "09:00 - 13:00 WITA (Digital Nomads)"
+      },
+      "wfc_amenities": {
+        "wifi_speed_mbps": 200,
+        "power_sockets_rating": "Tersedia di setiap meja (100% stopkontak universal + USB-C PD charging)",
+        "total_capacity": 85,
+        "has_meeting_room": true,
+        "has_outdoor_smoking": true,
+        "has_indoor_smoking": false,
+        "prayer_room": {
+          "available": true,
+          "details": "Private prayer area di lantai 2"
+        },
+        "parking": {
+          "car_spaces": "Terbatas 4 mobil",
+          "motorcycle_spaces": "40 slot motor (dengan parkir sepeda balap)",
+          "valet_service": false
+        }
+      },
+      "contacts": {
+        "whatsapp_order_number": "+6281234567892",
+        "instagram_handle": "@kromacoffee.bali",
+        "delivery_links": {
+          "gofood": "https://gofood.link/u/kroma-canggu",
+          "grabfood": "https://r.grab.com/g/kroma-canggu"
+        }
+      }
+    }
+  ]
+}

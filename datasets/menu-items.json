@@ -1,0 +1,360 @@
+{
+  "version": "1.0.0",
+  "currency": "IDR",
+  "categories": [
+    {
+      "id": "espresso_based",
+      "name": "Espresso Based",
+      "description": "Klasik espresso diekstraksi presisi dengan mesin La Marzocco Strada."
+    },
+    {
+      "id": "manual_brew",
+      "name": "Filter & Manual Brew",
+      "description": "Biji kopi single-origin pilihan diseduh manual metode V60, Kalita, atau Origami."
+    },
+    {
+      "id": "signature_creations",
+      "name": "Signature Drinks",
+      "description": "Kreasi rasa otentik barista memadukan botanical essence dan specialty espresso."
+    },
+    {
+      "id": "tea_and_botanicals",
+      "name": "Artisan Tea & Botanicals",
+      "description": "Teh daun murni single-origin dan racikan herbal tanpa bahan kimia."
+    },
+    {
+      "id": "non_coffee",
+      "name": "Non-Coffee Classics",
+      "description": "Cokelat murni single estate dan racikan matcha Kyoto kualitas ceremonial."
+    },
+    {
+      "id": "pastry_and_bakery",
+      "name": "Viennoiserie & Pastry",
+      "description": "Dipanggang fresh setiap pagi dengan 100% French Normandy Butter."
+    },
+    {
+      "id": "all_day_brunch",
+      "name": "All-Day Brunch & Mains",
+      "description": "Sajian hangat bergizi menggunakan roti sourdough fermentasi 36 jam."
+    }
+  ],
+  "items": [
+    {
+      "id": "double-espresso",
+      "category_id": "espresso_based",
+      "name": "Doppio Espresso",
+      "tagline": "Dua shot espresso pekat berkarakter nutty & chocolate",
+      "description": "Diekstraksi pada rasio 1:2 dalam 27 detik menggunakan house blend 60% Arabica Brazil Santos dan 40% Gayo Bourbon.",
+      "price": 32000,
+      "image_url": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=800&q=80",
+      "tags": ["barista_pick", "espresso"],
+      "dietary": {
+        "is_vegan": true,
+        "is_gluten_free": true,
+        "is_halal": true,
+        "allergens": []
+      },
+      "coffee_profile": {
+        "beans_origin": "Brazil & Aceh Gayo Blend",
+        "altitude_masl": 1450,
+        "process": "Washed & Natural Hybrid",
+        "roast_level": "medium",
+        "tasting_notes": ["Dark Chocolate", "Roasted Hazelnut", "Brown Sugar"],
+        "radar_metrics": {
+          "acidity": 2.2,
+          "sweetness": 3.8,
+          "body": 4.5,
+          "aroma": 4.2
+        }
+      },
+      "customizations": {
+        "temperatures": ["hot"],
+        "milk_options": [],
+        "sweetness_levels": ["0%"],
+        "extra_shots_allowed": true
+      }
+    },
+    {
+      "id": "magic-flat-white",
+      "category_id": "espresso_based",
+      "name": "Melbourne Magic Flat White",
+      "tagline": "Ristretto ganda dengan steamed milk micro-foam lembut",
+      "description": "Racikan ikonik Melbourne: Double ristretto diekstrak pendek untuk menonjolkan rasa manis alami, dipadukan susu bertekstur sutra.",
+      "price": 44000,
+      "image_url": "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=800&q=80",
+      "tags": ["best_seller", "coffee_lover"],
+      "dietary": {
+        "is_vegan": false,
+        "is_gluten_free": true,
+        "is_halal": true,
+        "allergens": ["dairy"]
+      },
+      "coffee_profile": {
+        "beans_origin": "Flores Bajawa & Toraja Sapan",
+        "altitude_masl": 1600,
+        "process": "Full Washed",
+        "roast_level": "medium",
+        "tasting_notes": ["Caramel Pudding", "Milk Chocolate", "Orange Blossom"],
+        "radar_metrics": {
+          "acidity": 2.5,
+          "sweetness": 4.2,
+          "body": 4.0,
+          "aroma": 4.3
+        }
+      },
+      "customizations": {
+        "temperatures": ["hot", "iced"],
+        "milk_options": [
+          { "id": "fresh_milk", "name": "Fresh Dairy Milk", "extra_price": 0 },
+          { "id": "oat_milk", "name": "Oatside Barista Blend", "extra_price": 8000 },
+          { "id": "almond_milk", "name": "Almond Milk", "extra_price": 10000 }
+        ],
+        "sweetness_levels": ["0%", "50%", "100%"],
+        "extra_shots_allowed": true
+      }
+    },
+    {
+      "id": "gayo-anaerobic-filter",
+      "category_id": "manual_brew",
+      "name": "Aceh Gayo Anaerobic Natural V60",
+      "tagline": "Fermentasi anaerobik 96 jam dengan profil buah tropis intens",
+      "description": "Single origin varietas Bourbon & Ateng Super dari pegunungan Takengon. Menyuguhkan kompleksitas aroma winey yang bersih dengan aftertaste manis panjang.",
+      "price": 48000,
+      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+      "tags": ["signature_origin", "barista_pick"],
+      "dietary": {
+        "is_vegan": true,
+        "is_gluten_free": true,
+        "is_halal": true,
+        "allergens": []
+      },
+      "coffee_profile": {
+        "beans_origin": "Takengon, Aceh Central",
+        "altitude_masl": 1650,
+        "process": "Anaerobic Natural 96h",
+        "roast_level": "light",
+        "tasting_notes": ["Jackfruit", "Wild Strawberry", "Rum Raisin", "Cacao Nibs"],
+        "radar_metrics": {
+          "acidity": 4.2,
+          "sweetness": 4.5,
+          "body": 3.8,
+          "aroma": 4.8
+        }
+      },
+      "customizations": {
+        "temperatures": ["hot", "iced"],
+        "milk_options": [],
+        "sweetness_levels": ["0%"],
+        "extra_shots_allowed": false
+      }
+    },
+    {
+      "id": "ethiopia-yirgacheffe-washed",
+      "category_id": "manual_brew",
+      "name": "Ethiopia Yirgacheffe Gedeb Washed",
+      "tagline": "Teh melati elegan dan kesegaran citrus bergamot",
+      "description": "Kopi legendaris heirloom varietas dari stasiun cuci Gedeb. Ringan, bercahaya, dengan karakter seperti earl grey tea floral yang memikat.",
+      "price": 52000,
+      "image_url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80",
+      "tags": ["exotic", "light_roast"],
+      "dietary": {
+        "is_vegan": true,
+        "is_gluten_free": true,
+        "is_halal": true,
+        "allergens": []
+      },
+      "coffee_profile": {
+        "beans_origin": "Gedeb, Yirgacheffe, Ethiopia",
+        "altitude_masl": 2100,
+        "process": "Washed",
+        "roast_level": "light",
+        "tasting_notes": ["Jasmine Blossom", "Peach Apricot", "Bergamot", "Honey Finish"],
+        "radar_metrics": {
+          "acidity": 4.6,
+          "sweetness": 4.0,
+          "body": 2.8,
+          "aroma": 4.9
+        }
+      },
+      "customizations": {
+        "temperatures": ["hot", "iced"],
+        "milk_options": [],
+        "sweetness_levels": ["0%"],
+        "extra_shots_allowed": false
+      }
+    },
+    {
+      "id": "sea-salt-caramel-cold-brew",
+      "category_id": "signature_creations",
+      "name": "Sea Salt Foam Cold Brew",
+      "tagline": "Seduhan dingin 18 jam dengan krim sea salt gurih legit",
+      "description": "Cold brew steep lambat disajikan di atas es batu jernih, diberi lapisan velvety cream foam dengan taburan garam laut Bali Amed asli.",
+      "price": 46000,
+      "image_url": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80",
+      "tags": ["best_seller", "signature"],
+      "dietary": {
+        "is_vegan": false,
+        "is_gluten_free": true,
+        "is_halal": true,
+        "allergens": ["dairy"]
+      },
+      "coffee_profile": {
+        "beans_origin": "Single Origin Bali Kintamani",
+        "altitude_masl": 1350,
+        "process": "Natural Cold Steep 18h",
+        "roast_level": "medium_dark",
+        "tasting_notes": ["Brown Sugar", "Dark Chocolate", "Sea Salt Cream"],
+        "radar_metrics": {
+          "acidity": 1.8,
+          "sweetness": 4.2,
+          "body": 4.3,
+          "aroma": 3.9
+        }
+      },
+      "customizations": {
+        "temperatures": ["iced"],
+        "milk_options": [],
+        "sweetness_levels": ["Less Sweet (50%)", "Normal Sweet (100%)"],
+        "extra_shots_allowed": true
+      }
+    },
+    {
+      "id": "yuzu-tonic-espresso",
+      "category_id": "signature_creations",
+      "name": "Yuzu Sparkler Espresso Tonic",
+      "tagline": "Kesegaran citrus Jepang dan sparkling tonic berbusa",
+      "description": "Layering estetis antara puree buah Yuzu Kochi impor, premium tonic water, dan floating shot espresso single-origin.",
+      "price": 48000,
+      "image_url": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=80",
+      "tags": ["refreshing", "summer_pick"],
+      "dietary": {
+        "is_vegan": true,
+        "is_gluten_free": true,
+        "is_halal": true,
+        "allergens": []
+      },
+      "customizations": {
+        "temperatures": ["iced"],
+        "milk_options": [],
+        "sweetness_levels": ["Normal"],
+        "extra_shots_allowed": false
+      }
+    },
+    {
+      "id": "ceremonial-uji-matcha-latte",
+      "category_id": "non_coffee",
+      "name": "Ceremonial Uji Matcha Oat Latte",
+      "tagline": "Matcha grade pertama asal Kyoto dipadukan creamy oat milk",
+      "description": "100% first harvest stone-ground green tea leaves dari perkebunan Uji, Kyoto. Karakter umami pekat bebas rasa pahit berlebih.",
+      "price": 50000,
+      "image_url": "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=800&q=80",
+      "tags": ["superfood", "best_seller"],
+      "dietary": {
+        "is_vegan": true,
+        "is_gluten_free": true,
+        "is_halal": true,
+        "allergens": []
+      },
+      "customizations": {
+        "temperatures": ["hot", "iced"],
+        "milk_options": [
+          { "id": "oat_milk", "name": "Oat Milk (Included)", "extra_price": 0 },
+          { "id": "dairy_milk", "name": "Fresh Dairy Milk", "extra_price": 0 }
+        ],
+        "sweetness_levels": ["No Sugar (0%)", "Mild Honey (50%)", "Standard (100%)"],
+        "extra_shots_allowed": true
+      }
+    },
+    {
+      "id": "valrhona-noir-chocolate",
+      "category_id": "non_coffee",
+      "name": "Valrhona 70% Guanaja Dark Chocolate",
+      "tagline": "Cokelat grand cru Prancis dengan rasa cokelat pekat lembut",
+      "description": "Menggunakan cokelat blok leleh Valrhona Guanaja 70% kakao dari blend criollo & trinitario, dimasak perlahan bersama susu segar.",
+      "price": 48000,
+      "image_url": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=800&q=80",
+      "tags": ["comfort_drink"],
+      "dietary": {
+        "is_vegan": false,
+        "is_gluten_free": true,
+        "is_halal": true,
+        "allergens": ["dairy"]
+      },
+      "customizations": {
+        "temperatures": ["hot", "iced"],
+        "milk_options": [
+          { "id": "fresh_milk", "name": "Fresh Dairy", "extra_price": 0 },
+          { "id": "oat_milk", "name": "Oat Milk", "extra_price": 8000 }
+        ],
+        "sweetness_levels": ["Standard", "Less Sweet"],
+        "extra_shots_allowed": false
+      }
+    },
+    {
+      "id": "french-butter-croissant",
+      "category_id": "pastry_and_bakery",
+      "name": "Classic Normandy Butter Croissant",
+      "tagline": "Lapisan pastry renyah berongga sarang lebah dengan aroma mentega kaya",
+      "description": "Laminasi 27 lapis menggunakan AOP Isigny Ste Mère French Butter. Golden-crusted di luar, airy dan tender di dalam.",
+      "price": 28000,
+      "image_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80",
+      "tags": ["freshly_baked", "breakfast_staple"],
+      "dietary": {
+        "is_vegan": false,
+        "is_gluten_free": false,
+        "is_halal": true,
+        "allergens": ["gluten", "dairy", "eggs"]
+      },
+      "customizations": {
+        "temperatures": [],
+        "milk_options": [],
+        "sweetness_levels": [],
+        "extra_shots_allowed": false
+      }
+    },
+    {
+      "id": "pistachio-cardamom-cruffin",
+      "category_id": "pastry_and_bakery",
+      "name": "Pistachio Praline Cruffin",
+      "tagline": "Perpaduan croissant & muffin dengan isian pistachio lava",
+      "description": "Cruffin renyah dibalut gula kapulaga organik dan diisi generous homemade pistachio cream paste dari kacang pistachio Sisilia.",
+      "price": 42000,
+      "image_url": "https://images.unsplash.com/photo-1621236378699-8597fee6a1ce?auto=format&fit=crop&w=800&q=80",
+      "tags": ["trending", "sweet_tooth"],
+      "dietary": {
+        "is_vegan": false,
+        "is_gluten_free": false,
+        "is_halal": true,
+        "allergens": ["gluten", "dairy", "eggs", "tree_nuts"]
+      },
+      "customizations": {
+        "temperatures": [],
+        "milk_options": [],
+        "sweetness_levels": [],
+        "extra_shots_allowed": false
+      }
+    },
+    {
+      "id": "truffle-scrambled-sourdough",
+      "category_id": "all_day_brunch",
+      "name": "Black Truffle Scrambled Sourdough",
+      "tagline": "Telur omega-3 lembut dengan pasta truffle hitam & artisan sourdough",
+      "description": "Dua iris sourdough panggang dioles mentega bawang putih, disajikan dengan creamy soft scramble beraroma black truffle oil, baby rocket, dan parutan keju Grana Padano.",
+      "price": 68000,
+      "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80",
+      "tags": ["chef_recommendation", "brunch_favorite"],
+      "dietary": {
+        "is_vegan": false,
+        "is_gluten_free": false,
+        "is_halal": true,
+        "allergens": ["gluten", "dairy", "eggs"]
+      },
+      "customizations": {
+        "temperatures": [],
+        "milk_options": [],
+        "sweetness_levels": [],
+        "extra_shots_allowed": false
+      }
+    }
+  ]
+}
