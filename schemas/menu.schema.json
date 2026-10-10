@@ -22,7 +22,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "category_id", "name", "description", "price", "image_url", "tags", "dietary"],
+        "required": ["id", "category_id", "name", "description", "price", "stock_status", "image_url", "tags", "dietary"],
         "properties": {
           "id": { "type": "string" },
           "category_id": { "type": "string" },
@@ -30,6 +30,10 @@
           "tagline": { "type": "string" },
           "description": { "type": "string" },
           "price": { "type": "integer" },
+          "stock_status": { 
+            "type": "string", 
+            "enum": ["available", "low_stock", "sold_out"] 
+          },
           "image_url": { "type": "string", "format": "uri" },
           "tags": {
             "type": "array",

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "currency": "IDR",
   "categories": [
     {
@@ -46,6 +46,7 @@
       "tagline": "Dua shot espresso pekat berkarakter nutty & chocolate",
       "description": "Diekstraksi pada rasio 1:2 dalam 27 detik menggunakan house blend 60% Arabica Brazil Santos dan 40% Gayo Bourbon.",
       "price": 32000,
+      "stock_status": "available",
       "image_url": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=800&q=80",
       "tags": ["barista_pick", "espresso"],
       "dietary": {
@@ -81,6 +82,7 @@
       "tagline": "Ristretto ganda dengan steamed milk micro-foam lembut",
       "description": "Racikan ikonik Melbourne: Double ristretto diekstrak pendek untuk menonjolkan rasa manis alami, dipadukan susu bertekstur sutra.",
       "price": 44000,
+      "stock_status": "available",
       "image_url": "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=800&q=80",
       "tags": ["best_seller", "coffee_lover"],
       "dietary": {
@@ -120,8 +122,9 @@
       "tagline": "Fermentasi anaerobik 96 jam dengan profil buah tropis intens",
       "description": "Single origin varietas Bourbon & Ateng Super dari pegunungan Takengon. Menyuguhkan kompleksitas aroma winey yang bersih dengan aftertaste manis panjang.",
       "price": 48000,
+      "stock_status": "low_stock",
       "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
-      "tags": ["signature_origin", "barista_pick"],
+      "tags": ["signature_origin", "barista_pick", "limited_batch"],
       "dietary": {
         "is_vegan": true,
         "is_gluten_free": true,
@@ -155,6 +158,7 @@
       "tagline": "Teh melati elegan dan kesegaran citrus bergamot",
       "description": "Kopi legendaris heirloom varietas dari stasiun cuci Gedeb. Ringan, bercahaya, dengan karakter seperti earl grey tea floral yang memikat.",
       "price": 52000,
+      "stock_status": "available",
       "image_url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80",
       "tags": ["exotic", "light_roast"],
       "dietary": {
@@ -190,6 +194,7 @@
       "tagline": "Seduhan dingin 18 jam dengan krim sea salt gurih legit",
       "description": "Cold brew steep lambat disajikan di atas es batu jernih, diberi lapisan velvety cream foam dengan taburan garam laut Bali Amed asli.",
       "price": 46000,
+      "stock_status": "available",
       "image_url": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80",
       "tags": ["best_seller", "signature"],
       "dietary": {
@@ -225,6 +230,7 @@
       "tagline": "Kesegaran citrus Jepang dan sparkling tonic berbusa",
       "description": "Layering estetis antara puree buah Yuzu Kochi impor, premium tonic water, dan floating shot espresso single-origin.",
       "price": 48000,
+      "stock_status": "available",
       "image_url": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=80",
       "tags": ["refreshing", "summer_pick"],
       "dietary": {
@@ -247,6 +253,7 @@
       "tagline": "Matcha grade pertama asal Kyoto dipadukan creamy oat milk",
       "description": "100% first harvest stone-ground green tea leaves dari perkebunan Uji, Kyoto. Karakter umami pekat bebas rasa pahit berlebih.",
       "price": 50000,
+      "stock_status": "available",
       "image_url": "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=800&q=80",
       "tags": ["superfood", "best_seller"],
       "dietary": {
@@ -272,6 +279,7 @@
       "tagline": "Cokelat grand cru Prancis dengan rasa cokelat pekat lembut",
       "description": "Menggunakan cokelat blok leleh Valrhona Guanaja 70% kakao dari blend criollo & trinitario, dimasak perlahan bersama susu segar.",
       "price": 48000,
+      "stock_status": "available",
       "image_url": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=800&q=80",
       "tags": ["comfort_drink"],
       "dietary": {
@@ -297,6 +305,7 @@
       "tagline": "Lapisan pastry renyah berongga sarang lebah dengan aroma mentega kaya",
       "description": "Laminasi 27 lapis menggunakan AOP Isigny Ste Mère French Butter. Golden-crusted di luar, airy dan tender di dalam.",
       "price": 28000,
+      "stock_status": "available",
       "image_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80",
       "tags": ["freshly_baked", "breakfast_staple"],
       "dietary": {
@@ -319,8 +328,9 @@
       "tagline": "Perpaduan croissant & muffin dengan isian pistachio lava",
       "description": "Cruffin renyah dibalut gula kapulaga organik dan diisi generous homemade pistachio cream paste dari kacang pistachio Sisilia.",
       "price": 42000,
+      "stock_status": "low_stock",
       "image_url": "https://images.unsplash.com/photo-1621236378699-8597fee6a1ce?auto=format&fit=crop&w=800&q=80",
-      "tags": ["trending", "sweet_tooth"],
+      "tags": ["trending", "sweet_tooth", "daily_limited"],
       "dietary": {
         "is_vegan": false,
         "is_gluten_free": false,
@@ -341,6 +351,7 @@
       "tagline": "Telur omega-3 lembut dengan pasta truffle hitam & artisan sourdough",
       "description": "Dua iris sourdough panggang dioles mentega bawang putih, disajikan dengan creamy soft scramble beraroma black truffle oil, baby rocket, dan parutan keju Grana Padano.",
       "price": 68000,
+      "stock_status": "available",
       "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80",
       "tags": ["chef_recommendation", "brunch_favorite"],
       "dietary": {

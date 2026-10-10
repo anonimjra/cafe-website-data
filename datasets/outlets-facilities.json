@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "outlets": [
     {
       "id": "senopati-flagship",
@@ -36,6 +36,20 @@
           "valet_service": true
         }
       },
+      "ambient_soundscape": {
+        "playlist_name": "Kroma Senopati Morning Warmth",
+        "spotify_playlist_url": "https://open.spotify.com/playlist/37i9dQZF1DXc8kgYqQLMfH",
+        "spotify_embed_uri": "spotify:playlist:37i9dQZF1DXc8kgYqQLMfH",
+        "genre_vibe": "Warm Lo-Fi Beats, Acoustic Neo-Soul & Gentle Nu-Jazz"
+      },
+      "reservation_policy": {
+        "allows_reservation": true,
+        "minimum_spend_idr": 500000,
+        "max_duration_hours": 2.5,
+        "max_capacity_pax": 10,
+        "deposit_percentage": 50,
+        "terms": "Reservasi berlaku khusus Private Glass Mezzanine room. DP 50% non-refundable jika pembatalan kurang dari 24 jam."
+      },
       "contacts": {
         "whatsapp_order_number": "+6281234567890",
         "instagram_handle": "@kromacoffee.senopati",
@@ -43,6 +57,16 @@
           "gofood": "https://gofood.link/u/kroma-senopati",
           "grabfood": "https://r.grab.com/g/kroma-senopati"
         }
+      },
+      "seo_structured_data": {
+        "@context": "https://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "Kroma Roastery & Coffee Bar - Senopati",
+        "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
+        "telephone": "+62-812-3456-7890",
+        "priceRange": "$$",
+        "servesCuisine": "Specialty Coffee, Viennoiserie, All-Day Brunch",
+        "acceptsReservations": "True"
       }
     },
     {
@@ -80,6 +104,20 @@
           "valet_service": false
         }
       },
+      "ambient_soundscape": {
+        "playlist_name": "BSD Botanical Chill & Birds",
+        "spotify_playlist_url": "https://open.spotify.com/playlist/37i9dQZF1DX4WYpdgoIcn6",
+        "spotify_embed_uri": "spotify:playlist:37i9dQZF1DX4WYpdgoIcn6",
+        "genre_vibe": "Ambient Indie Folk, Chillwave & Acoustic Melodies"
+      },
+      "reservation_policy": {
+        "allows_reservation": false,
+        "minimum_spend_idr": 0,
+        "max_duration_hours": 0,
+        "max_capacity_pax": 0,
+        "deposit_percentage": 0,
+        "terms": "Sistem walk-in only untuk area outdoor garden dan glasshouse."
+      },
       "contacts": {
         "whatsapp_order_number": "+6281234567891",
         "instagram_handle": "@kromacoffee.bsd",
@@ -87,6 +125,16 @@
           "gofood": "https://gofood.link/u/kroma-bsd",
           "grabfood": "https://r.grab.com/g/kroma-bsd"
         }
+      },
+      "seo_structured_data": {
+        "@context": "https://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "Kroma Botanical Sanctuary - BSD City",
+        "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80",
+        "telephone": "+62-812-3456-7891",
+        "priceRange": "$$",
+        "servesCuisine": "Artisan Coffee, Artisanal Tea, Fresh Bakery",
+        "acceptsReservations": "False"
       }
     },
     {
@@ -124,6 +172,20 @@
           "valet_service": false
         }
       },
+      "ambient_soundscape": {
+        "playlist_name": "Canggu Nomad Deep Focus",
+        "spotify_playlist_url": "https://open.spotify.com/playlist/37i9dQZF1DXdLEN7aqioXM",
+        "spotify_embed_uri": "spotify:playlist:37i9dQZF1DXdLEN7aqioXM",
+        "genre_vibe": "Deep Electronic, Organic House & Down-tempo Grooves"
+      },
+      "reservation_policy": {
+        "allows_reservation": true,
+        "minimum_spend_idr": 750000,
+        "max_duration_hours": 3.0,
+        "max_capacity_pax": 8,
+        "deposit_percentage": 50,
+        "terms": "Private Cupping / Podcast Room reservation. Termasuk free-flow batch brew coffee."
+      },
       "contacts": {
         "whatsapp_order_number": "+6281234567892",
         "instagram_handle": "@kromacoffee.bali",
@@ -131,6 +193,16 @@
           "gofood": "https://gofood.link/u/kroma-canggu",
           "grabfood": "https://r.grab.com/g/kroma-canggu"
         }
+      },
+      "seo_structured_data": {
+        "@context": "https://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "Kroma Micro-Roasters - Canggu Bali",
+        "image": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1200&q=80",
+        "telephone": "+62-812-3456-7892",
+        "priceRange": "$$$",
+        "servesCuisine": "Single Origin Coffee, Filter Coffee, Healthy Bowls",
+        "acceptsReservations": "True"
       }
     }
   ]

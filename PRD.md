@@ -34,6 +34,7 @@ Setiap item menu wajib memenuhi kriteria berikut:
 * `name`: Nama resmi produk.
 * `description`: Copywriting deskriptif yang menjual.
 * `price`: Harga dasar integer IDR.
+* `stock_status`: State ketersediaan produk (`available`, `low_stock`, `sold_out`).
 * `tags`: Array tag (`best_seller`, `new_arrival`, `barista_pick`, `seasonal`).
 * `dietary`: Object flags (`is_vegan`, `is_gluten_free`, `is_halal`, `allergens: []`).
 * `customizations`: Varian suhu (`hot`/`iced`), opsi susu (`regular`, `oat`, `almond`, `soy`), sweetness level, extra espresso shot.
@@ -45,7 +46,7 @@ Setiap item menu wajib memenuhi kriteria berikut:
   * `radar_metrics`: Skor 1-5 untuk `acidity`, `sweetness`, `body`, `aroma`.
 
 ### 3.2. Outlets & Store Locator (`datasets/outlets-facilities.json`)
-Data multi-cabang dengan fokus pengunjung WFC dan kumpul komunitas:
+Data multi-cabang dengan fokus pengunjung WFC, musik imersif, dan Google SEO:
 * `id`: Slug outlet (e.g. `senopati-flagship`).
 * `name`: Nama cabang.
 * `address`: Alamat lengkap + kota + kode pos.
@@ -56,10 +57,12 @@ Data multi-cabang dengan fokus pengunjung WFC dan kumpul komunitas:
   * `wifi_speed_mbps`: Kecepatan download/upload teruji.
   * `power_sockets_ratio`: Estimasi soket listrik (e.g., `"High (Available at 80% tables)"`).
   * `seating_capacity`: Total kapasitas kursi.
-  * `areas`: Daftar area (`indoor_ac_no_smoking`, `indoor_smoking_mezzanine`, `outdoor_garden`, `private_meeting_room`).
   * `prayer_room`: Ketersediaan musholla (`boolean` + detail fasilitas).
   * `parking`: Fasilitas parkir mobil & motor.
+* `ambient_soundscape`: Kurasi playlist Spotify per cabang (`playlist_name`, `spotify_playlist_url`, `genre_vibe`).
+* `reservation_policy`: Aturan sewa meeting room / slow bar (`allows_reservation`, `minimum_spend_idr`, `max_duration_hours`, `deposit_percentage`, `terms`).
 * `contact`: Nomor WhatsApp order khusus cabang & link delivery online.
+* `seo_structured_data`: Schema.org `CafeOrCoffeeShop` JSON-LD valid untuk Google Search Rich Snippet.
 
 ### 3.3. Design Tokens & Visual Benchmarks (`datasets/design-tokens.json` & `benchmarks/`)
 Preset visual untuk styling instan frontend:

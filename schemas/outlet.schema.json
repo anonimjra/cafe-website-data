@@ -9,7 +9,20 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "name", "city", "address", "coordinates", "google_maps_url", "operating_hours", "wfc_amenities", "contacts"],
+        "required": [
+          "id",
+          "name",
+          "city",
+          "address",
+          "coordinates",
+          "google_maps_url",
+          "operating_hours",
+          "wfc_amenities",
+          "ambient_soundscape",
+          "reservation_policy",
+          "contacts",
+          "seo_structured_data"
+        ],
         "properties": {
           "id": { "type": "string" },
           "name": { "type": "string" },
@@ -63,6 +76,28 @@
               }
             }
           },
+          "ambient_soundscape": {
+            "type": "object",
+            "required": ["playlist_name", "spotify_playlist_url"],
+            "properties": {
+              "playlist_name": { "type": "string" },
+              "spotify_playlist_url": { "type": "string", "format": "uri" },
+              "spotify_embed_uri": { "type": "string" },
+              "genre_vibe": { "type": "string" }
+            }
+          },
+          "reservation_policy": {
+            "type": "object",
+            "required": ["allows_reservation"],
+            "properties": {
+              "allows_reservation": { "type": "boolean" },
+              "minimum_spend_idr": { "type": "integer" },
+              "max_duration_hours": { "type": "number" },
+              "max_capacity_pax": { "type": "integer" },
+              "terms": { "type": "string" },
+              "deposit_percentage": { "type": "integer" }
+            }
+          },
           "contacts": {
             "type": "object",
             "required": ["whatsapp_order_number"],
@@ -76,6 +111,20 @@
                   "grabfood": { "type": "string" }
                 }
               }
+            }
+          },
+          "seo_structured_data": {
+            "type": "object",
+            "required": ["@context", "@type", "name", "priceRange", "servesCuisine"],
+            "properties": {
+              "@context": { "type": "string" },
+              "@type": { "type": "string" },
+              "name": { "type": "string" },
+              "image": { "type": "string" },
+              "telephone": { "type": "string" },
+              "priceRange": { "type": "string" },
+              "servesCuisine": { "type": "string" },
+              "acceptsReservations": { "type": "string" }
             }
           }
         }
